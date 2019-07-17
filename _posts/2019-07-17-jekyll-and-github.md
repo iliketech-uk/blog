@@ -64,12 +64,12 @@ git push -u origin master
 
 Then on the Github project website select the settings tab:
 
-![image](/assets/images/github_settings.png){:class="img-responsive"}
+![image]({{ baseurl }}/assets/images/github_settings.png)
 
 Scroll down to the Github pages section and enable it by pointing it to the master branch (you can change this to a different branch later if needed):
 
-![image](/assets/images/github_pages.png){:class="img-responsive"}
+![image]({{ baseurl }}/assets/images/github_pages.png)
 
-One thing I needed to do was to edit the `base_url` variable in the `_config.yml` file to add the name of the repo. This is because the page is hosted on `/blog`.
+One thing I needed to do was to edit the `baseurl` variable in the `_config.yml` file to add the name of the repo. This is because the page is hosted on `/blog`.
 
 And that's it! Very straightforward. Of course you can edit the theme/CSS to make it a bit prettier but as a basic blog platform I'm very impressed with Jekyll and Github pages.
