@@ -55,3 +55,19 @@ At the moment the site is configured with a minimilist basic theme called Minima
 
 ## Running the site on Github pages
 
+If you haven't already got one you'll need to sign up for a Github account. Once done you'll then need to create a repository for your site. Follow the instructions and then `cd` into the folder created by Jekyll and push it to the repository:
+
+```bash
+git remote add origin <repo_url>
+git push -u origin master
+```
+
+Then on the Github project website select the settings tab:
+
+![alt text](github_settings.png)
+
+Scroll down to the Github pages section and enable it by pointing it to the master branch (you can change this to a different branch later if needed):
+
+![alt text](github_pages.png)
+
+And that's it! Very straightforward. Of course you can edit the theme/CSS to make it a bit prettier but as a basic blog platform I'm very impressed with Jekyll and Github pages.
