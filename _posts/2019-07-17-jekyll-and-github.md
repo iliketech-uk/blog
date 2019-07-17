@@ -64,11 +64,11 @@ git push -u origin master
 
 Then on the Github project website select the settings tab:
 
-![image]({{ baseurl }}/assets/images/github_settings.png)
+![image](/blog/assets/images/github_settings.png)
 
 Scroll down to the Github pages section and enable it by pointing it to the master branch (you can change this to a different branch later if needed):
 
-![image]({{ baseurl }}/assets/images/github_pages.png)
+![image](/blog/assets/images/github_pages.png)
 
 One thing I needed to do was to edit the `baseurl` variable in the `_config.yml` file to add the name of the repo. This is because the page is hosted on `/blog`.
 
